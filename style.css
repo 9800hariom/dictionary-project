@@ -1,0 +1,75 @@
+body {
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ca3939;
+}
+
+.card {
+    background: white;
+    padding: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.sparn span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.lin {
+    margin-top: 20px;
+}
+
+.lin input {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.lin button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.lin button:hover {
+    background-color: #0056b3;
+}
+
+.boldserene {
+    margin-top: 20px;
+}
+
+.bold h2 {
+    margin: 0;
+}
+
+.bold p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.mic img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.calm pre {
+    font-family: inherit;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
